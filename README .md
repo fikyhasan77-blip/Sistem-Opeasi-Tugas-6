@@ -181,17 +181,4 @@ chmod +x p1.sh p2.sh p3.sh pwaktu.sh
 
 Untuk menguji `pwaktu.sh`, jalankan `./pwaktu.sh &`, tunggu beberapa detik, lalu periksa dengan `cat hasil`. Hentikan proses setelah selesai.
 
-## Upload ke GitHub
 
-Buat repository baru di GitHub, kemudian jalankan dari folder ini:
-
-```bash
-git init
-git add README.md p1.sh p2.sh p3.sh pwaktu.sh .gitignore
-git commit -m "Tugas Praktikum 5 Sistem Operasi"
-git branch -M main
-git remote add origin https://github.com/USERNAME/tugas-praktikum5.git
-git push -u origin main
-```
-
-Ganti `USERNAME` dengan username GitHub sendiri. Jika repository sudah memiliki remote `origin`, periksa dengan `git remote -v` sebelum menambahkannya.
